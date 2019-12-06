@@ -2,7 +2,26 @@ body {
   background-color: black;
 }
 .card__container {
-    background-color: #fff;
-    display: flex;
-    flex-direction: row;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+  width: 1000px;
+}
+.card__item {
+  background-color: rgb(214, 103, 125);
+  border: 5px solid black;
+  flex-basis: 100px;
+  min-height: 150px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.card__medium {
+  flex-basis: 200px;
+}
+.card__bigger {
+  flex-basis: 600px;
 }

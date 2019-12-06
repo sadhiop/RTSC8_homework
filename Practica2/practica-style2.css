@@ -1,0 +1,130 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background-attachment: fixed;
+  background-color: black;
+}
+/* .main_page {
+    background-color: #505050;
+    margin: 0%;
+} */
+h1 {
+  background-color: #242424;
+  color: #dbdbdb;
+  display: flex;
+  flex-direction: column;
+  /* width: 300px; */
+  text-align: center;
+  justify-items: center;
+  min-width: 344px;
+  font-size: 48px;
+  margin: 0.5rem;
+  border-radius: 50%;
+}
+.page_content {
+  background-color: #ccc;
+}
+.article_list {
+  background-color: #eee;
+  color: black;
+  font-size: 24px;
+  /* max-width: 800px; */
+  align-items: center;
+  padding: 1rem;
+  border-style: double;
+  border-color: #163ec2;
+}
+ol {
+	line-height: 1.7;
+}
+div {
+  margin-left: 3rem;
+  font-size: 24px;
+  /* border-style: dotted;
+  border-color: red;
+  margin-left: 3rem; */
+  /* margin: 100%; */
+}
+.parrafo_color {
+  color: #003cff;
+  padding: 1rem;
+  margin: 1rem 50rem 1rem 5rem;
+  min-width: 260px;
+  border-style: dotted;
+  border-color: red;
+  background-color: #eee;
+  font-family: cursive;
+  font-size: 24px;
+}
+.container_50 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  height: 50px;
+  width: 50px;
+  margin: 0 5rem 0;
+}
+.imagen_640 {
+  height: 320px;
+  width: 320px;
+  filter: brightness(70%);
+}
+.imagen_320 {
+  height: 160px;
+  width: 160px;
+  filter: brightness(70%);
+}
+.imagen_640:hover {
+  filter: brightness(100%);
+}
+.imagen_320:hover {
+  filter: brightness(100%);
+}
+#main_container {
+  width: 300px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+}
+#main_container div {
+  width: 350px;
+  height: 30px;
+  text-align: center;
+}
+#main_container2 {
+  width: 400px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+}
+#main_container2 div {
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  margin-bottom: 3%;
+}
+.texto {
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+}
+.texto h2 {
+  display: inline-flex;
+  font-family: "Gabriela", serif;
+  color: #fff;
+  font-size: 10rem;
+  border-radius: 10px;
+  background: #2ba6cb80;
+  padding: 0.5em 0.2em 0.5em 0.2em;
+  justify-content: center;
+}
+h2 {
+	margin: 0.5rem;
+}

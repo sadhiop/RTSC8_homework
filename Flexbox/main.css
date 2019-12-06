@@ -1,0 +1,8 @@
+body {
+  background-color: black;
+}
+.card__container {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+}

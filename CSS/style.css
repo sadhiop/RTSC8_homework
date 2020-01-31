@@ -1,0 +1,41 @@
+body {
+    background-color: #2186c3;
+}
+
+img {
+    filter: brightness(100%);
+}
+
+.card-container {
+	border-radius: 3em;
+	width: 100%;
+    max-width: 350px;
+    height: 465px;
+    display: flex;
+	display: inline-block;
+}
+
+.card-container__item {
+	width: 300px;
+    height: 430px;
+    border-radius: 3em;
+    margin: 30px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card-container .card-container__item img{
+		width: 430px;
+		height: 330px;
+}
+
+.card-container .card-container__item:hover {
+	transform: translateY(-15px);
+	box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+    background-color: #65b6f6;
+    filter: brightness(100%);
+}
+
+/* .card-container__item img:hover {
+    filter: brightness(100%);
+} */

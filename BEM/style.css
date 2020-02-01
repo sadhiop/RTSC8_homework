@@ -37,10 +37,8 @@ header::before {
 
 .main-content {
     display: flex;
-<<<<<<< HEAD
-=======
     flex-wrap: wrap;
-    text-align: ce;
+    text-align: center;
 }
 
 .main-content__items {
@@ -95,5 +93,4 @@ header::before {
     font-size: 18px;
     color: #fafafa;
     background-color: #354a5e;
->>>>>>> 23c7ab1f81d89d5ba8ac5aa24985bdcb535a9d5f
 }
